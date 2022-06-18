@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  files:
+  - apiVersion: v2
+    created: "2022-06-19T00:34:23.436211+08:00"
+    description: A files chart for tink
+    digest: 756cad4864f695483a9bed7c49d9b379db181a4c6a9d2466f4bbee1b2728d46f
+    name: files
+    type: application
+    urls:
+    - https://ante-involutum.github.io/chartrepo/files-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-19T00:34:23.434778+08:00"
