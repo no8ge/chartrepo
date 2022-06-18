@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   files:
   - apiVersion: v2
-    created: "2022-06-19T00:59:08.33295+08:00"
+    created: "2022-06-19T01:39:16.949415+08:00"
     description: A files chart for tink
     digest: 756cad4864f695483a9bed7c49d9b379db181a4c6a9d2466f4bbee1b2728d46f
     name: files
@@ -10,9 +10,19 @@ entries:
     urls:
     - https://ante-involutum.github.io/chartrepo/files-0.1.0.tgz
     version: 0.1.0
+  jmeter:
+  - apiVersion: v2
+    created: "2022-06-19T01:39:16.949592+08:00"
+    description: A jmeter chart for tink
+    digest: ba92574222e49f94e0488ce8dbe1eccd1b7aab05f926d234c7d5fd9e3a0cda65
+    name: jmeter
+    type: application
+    urls:
+    - https://ante-involutum.github.io/chartrepo/jmeter-0.1.0.tgz
+    version: 0.1.0
   middleware:
   - apiVersion: v2
-    created: "2022-06-19T00:59:08.343911+08:00"
+    created: "2022-06-19T01:39:16.961692+08:00"
     description: A middleware chart for tink
     digest: 46c173dc6830adf746874e8477a155c552e0af41e7646416989e796bd38f4418
     name: middleware
@@ -20,4 +30,4 @@ entries:
     urls:
     - https://ante-involutum.github.io/chartrepo/middleware-0.1.0.tgz
     version: 0.1.0
-generated: "2022-06-19T00:59:08.332006+08:00"
+generated: "2022-06-19T01:39:16.948528+08:00"
