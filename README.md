@@ -1,6 +1,6 @@
 # chartrepo
 
-Helm Charts for Tink
+Helm Charts for Atop
 
 ## Quick Start
 
@@ -74,6 +74,6 @@ When ready to review (or just to establish an offsite backup of your work), push
 
 ### Step 8. Create a PR
 
-Visit your fork at <https://github.com/$user/helm-charts>
+Visit your fork at <https://github.com/$user/chartrepo>
 Click the Compare & Pull Request button next to your branch.
 Check out the pull request process for more details and advice.
