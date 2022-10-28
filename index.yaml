@@ -3,103 +3,85 @@ entries:
   analysis:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-08-24T16:29:28.891191+08:00"
+    created: "2022-10-28T12:03:29.668246+08:00"
     description: A analysis chart for tink
-    digest: 3abe034167f0c0eebade4f2d416328b72533c246683b49b7886f499335e6c6a8
+    digest: 101462486202243b1d6c541f4fb02cf7d66dbfc3e6d3e69dad1d2f9dc3216c58
     name: analysis
     type: application
     urls:
-    - https://ante-involutum.github.io/chartrepo/analysis-0.1.0.tgz
+    - https://no8ge.github.io/chartrepo/analysis-0.1.0.tgz
     version: 0.1.0
   auth:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-08-24T16:29:28.891495+08:00"
+    created: "2022-10-28T12:03:29.668484+08:00"
     description: A auth chart for tink
-    digest: 7fa21e17d1ebd79e7b902a9cb465f09ed664ab869c37726029bc0a31e83eb647
+    digest: 60ee8515d52137a583d34b95e217b6c40826c234fceecc14676423692d49a5aa
     name: auth
     type: application
     urls:
-    - https://ante-involutum.github.io/chartrepo/auth-0.1.0.tgz
+    - https://no8ge.github.io/chartrepo/auth-0.1.0.tgz
     version: 0.1.0
   console:
   - apiVersion: v2
-    created: "2022-08-24T16:29:28.89177+08:00"
+    created: "2022-10-28T12:03:29.668691+08:00"
     description: A console chart for tink
     digest: 94eb7043a7006067d725879e0c39f72a97fbda71d86b7bb809d5626a292dee47
     name: console
     type: application
     urls:
-    - https://ante-involutum.github.io/chartrepo/console-0.1.0.tgz
+    - https://no8ge.github.io/chartrepo/console-0.1.0.tgz
     version: 0.1.0
   demo:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-08-24T16:29:28.892232+08:00"
+    created: "2022-10-28T12:03:29.668905+08:00"
     description: A demo chart for tink
-    digest: 5e9cc924e8c2b5a0bb1ac472653539156b4c2e72aa896b2847a64a1f578efb96
+    digest: 99602cc905380bebc489d1e8464d825a4c24d09e6a972b6ace71d3d80f66309b
     name: demo
     type: application
     urls:
-    - https://ante-involutum.github.io/chartrepo/demo-0.1.0.tgz
+    - https://no8ge.github.io/chartrepo/demo-0.1.0.tgz
     version: 0.1.0
   files:
   - apiVersion: v2
-    created: "2022-08-24T16:29:28.892532+08:00"
+    created: "2022-10-28T12:03:29.669095+08:00"
     description: A files chart for tink
     digest: 023ebb2e6109cd9ec65828da3b3d63b9dc7b92c58f026f416f03fffc4f3d01da
     name: files
     type: application
     urls:
-    - https://ante-involutum.github.io/chartrepo/files-0.1.0.tgz
+    - https://no8ge.github.io/chartrepo/files-0.1.0.tgz
     version: 0.1.0
   jmeter:
   - apiVersion: v2
-    created: "2022-08-24T16:29:28.892819+08:00"
+    created: "2022-10-28T12:03:29.669339+08:00"
     description: A jmeter chart for tink
     digest: 732b805a19eb3ab75b2c14bba46c7ba89b6b2f470d95422d214ae4700eb67bb2
     name: jmeter
     type: application
     urls:
-    - https://ante-involutum.github.io/chartrepo/jmeter-0.1.0.tgz
+    - https://no8ge.github.io/chartrepo/jmeter-0.1.0.tgz
     version: 0.1.0
   middleware:
   - apiVersion: v2
-    created: "2022-08-24T16:29:28.93445+08:00"
+    created: "2022-10-28T12:03:29.678538+08:00"
     description: A middleware chart for tink
-    digest: 29a2d7c3639a044d5fec1cad5952cf67a75c33e31abc0a1a5f3a7dddb112ea4f
+    digest: 7bb1f2e2d6f12f146b8bf7fabc17449ac3ac8c74d9b4a87946cd31943e3d8f0a
     name: middleware
     type: application
     urls:
-    - https://ante-involutum.github.io/chartrepo/middleware-0.2.1.tgz
+    - https://no8ge.github.io/chartrepo/middleware-0.2.1.tgz
     version: 0.2.1
-  - apiVersion: v2
-    created: "2022-08-24T16:29:28.923684+08:00"
-    description: A middleware chart for tink
-    digest: 2b5ccc0bd71cf84a24966bd9394b32f39acc3c5a4d7f59db30b371d9d21d0263
-    name: middleware
-    type: application
-    urls:
-    - https://ante-involutum.github.io/chartrepo/middleware-0.2.0.tgz
-    version: 0.2.0
-  - apiVersion: v2
-    created: "2022-08-24T16:29:28.910431+08:00"
-    description: A middleware chart for tink
-    digest: 8b29e0d11cb2810e91bd76f5b7f032401cff7d05fa0704e6fa302729cc2fe784
-    name: middleware
-    type: application
-    urls:
-    - https://ante-involutum.github.io/chartrepo/middleware-0.1.0.tgz
-    version: 0.1.0
   tink:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-08-24T16:29:28.934712+08:00"
+    created: "2022-10-28T12:03:29.678936+08:00"
     description: A tink chart for tink
-    digest: 1de023d1c1ab09d3be0a81954da5caf43dc44e887d0dc7f9a94bc1508a688471
+    digest: 9ae81e0094ed4d0b2d44fbec2d0bcaa086db0e21804756b3ece6bf32490eb8fc
     name: tink
     type: application
     urls:
-    - https://ante-involutum.github.io/chartrepo/tink-0.1.0.tgz
+    - https://no8ge.github.io/chartrepo/tink-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-24T16:29:28.889981+08:00"
+generated: "2022-10-28T12:03:29.667095+08:00"
