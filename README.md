@@ -8,13 +8,13 @@ This guide will walk you through a series of steps to package, upload and deploy
 
 ### Step 1. Fork
 
-1. Visit <https://github.com/ante-involutum/chartrepo>
+1. Visit <https://github.com/no8ge/chartrepo>
 2. Click `Fork` button to create a fork of the project to your GitHub account.
 
 ## Step 2. Clone the repository
 
 ```bash
-$ git clone https://github.com/ante-involutum/chartrepo.git && cd chartrepo/
+$ git clone https://github.com/no8ge/chartrepo.git && cd chartrepo/
 Cloning into ‘chartrepo’…
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
@@ -44,7 +44,7 @@ Successfully packaged chart and saved it to: /Users/iot/git/helm-chart/helm-char
 According to Helm:
 A repository is characterized primarily by the presence of a special file called index.yaml that has a list of all of the packages supplied by the repository, together with metadata that allows retrieving and verifying those packages.
 So, everything we need to create is the index.yaml file and the command to do that is:
-$ helm repo index --url https://ante-involutum.github.io/chartrepo/ .
+$ helm repo index --url https://no8ge.github.io/chartrepo/ .
 $ cat index.yaml
 apiVersion: v1
 entries:
@@ -56,7 +56,7 @@ helm-chart-test:
   digest: 35a4e31bfacc496f1b1bce664652916bb8701cc9df77f1b90534f5234ff297a6
   name: helm-chart-test
   urls:
-    - https://ante-involutum.github.io/chartrepo/helm-chart-test-0.1.0.tgz
+    - https://no8ge.github.io/chartrepo/helm-chart-test-0.1.0.tgz
       version: 0.1.0
       generated: 2019-04-16T11:10:08.729368+02:00
 ```
