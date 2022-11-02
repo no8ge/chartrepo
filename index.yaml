@@ -2,19 +2,19 @@ apiVersion: v1
 entries:
   analysis:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2022-10-28T12:03:29.668246+08:00"
-    description: A analysis chart for tink
-    digest: 101462486202243b1d6c541f4fb02cf7d66dbfc3e6d3e69dad1d2f9dc3216c58
+    appVersion: 1.0.0
+    created: "2022-11-02T11:15:40.27219+08:00"
+    description: A analysis chart for atop
+    digest: 21e92a44c6ba3b5edd1e37ad5a695538533f8678d39179a8abfd110909634903
     name: analysis
     type: application
     urls:
-    - https://no8ge.github.io/chartrepo/analysis-0.1.0.tgz
-    version: 0.1.0
+    - https://no8ge.github.io/chartrepo/analysis-1.0.0.tgz
+    version: 1.0.0
   auth:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-10-28T12:03:29.668484+08:00"
+    created: "2022-11-02T11:15:40.27258+08:00"
     description: A auth chart for tink
     digest: 60ee8515d52137a583d34b95e217b6c40826c234fceecc14676423692d49a5aa
     name: auth
@@ -24,7 +24,7 @@ entries:
     version: 0.1.0
   console:
   - apiVersion: v2
-    created: "2022-10-28T12:03:29.668691+08:00"
+    created: "2022-11-02T11:15:40.272927+08:00"
     description: A console chart for tink
     digest: 94eb7043a7006067d725879e0c39f72a97fbda71d86b7bb809d5626a292dee47
     name: console
@@ -35,7 +35,7 @@ entries:
   demo:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2022-10-28T12:03:29.668905+08:00"
+    created: "2022-11-02T11:15:40.273269+08:00"
     description: A demo chart for tink
     digest: 99602cc905380bebc489d1e8464d825a4c24d09e6a972b6ace71d3d80f66309b
     name: demo
@@ -45,7 +45,7 @@ entries:
     version: 0.1.0
   files:
   - apiVersion: v2
-    created: "2022-10-28T12:03:29.669095+08:00"
+    created: "2022-11-02T11:15:40.273612+08:00"
     description: A files chart for tink
     digest: 023ebb2e6109cd9ec65828da3b3d63b9dc7b92c58f026f416f03fffc4f3d01da
     name: files
@@ -53,19 +53,9 @@ entries:
     urls:
     - https://no8ge.github.io/chartrepo/files-0.1.0.tgz
     version: 0.1.0
-  jmeter:
-  - apiVersion: v2
-    created: "2022-10-28T12:03:29.669339+08:00"
-    description: A jmeter chart for tink
-    digest: 732b805a19eb3ab75b2c14bba46c7ba89b6b2f470d95422d214ae4700eb67bb2
-    name: jmeter
-    type: application
-    urls:
-    - https://no8ge.github.io/chartrepo/jmeter-0.1.0.tgz
-    version: 0.1.0
   middleware:
   - apiVersion: v2
-    created: "2022-10-28T12:03:29.678538+08:00"
+    created: "2022-11-02T11:15:40.285827+08:00"
     description: A middleware chart for tink
     digest: 7bb1f2e2d6f12f146b8bf7fabc17449ac3ac8c74d9b4a87946cd31943e3d8f0a
     name: middleware
@@ -75,13 +65,13 @@ entries:
     version: 0.2.1
   tink:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2022-10-28T12:03:29.678936+08:00"
-    description: A tink chart for tink
-    digest: 9ae81e0094ed4d0b2d44fbec2d0bcaa086db0e21804756b3ece6bf32490eb8fc
+    appVersion: 1.0.0
+    created: "2022-11-02T11:15:40.286143+08:00"
+    description: A tink chart for atop
+    digest: d460780a5a620946d4a6f33020256a5c951d85d16bfe762296436ce2eaf6ecd5
     name: tink
     type: application
     urls:
-    - https://no8ge.github.io/chartrepo/tink-0.1.0.tgz
-    version: 0.1.0
-generated: "2022-10-28T12:03:29.667095+08:00"
+    - https://no8ge.github.io/chartrepo/tink-1.0.0.tgz
+    version: 1.0.0
+generated: "2022-11-02T11:15:40.271332+08:00"
