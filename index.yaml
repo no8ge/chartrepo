@@ -3,7 +3,7 @@ entries:
   analysis:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-06-09T22:52:20.651678+08:00"
+    created: "2023-06-09T22:55:23.276885+08:00"
     description: A analysis chart for atop
     digest: 63c1f024840ff3160703ea2522ef84c0f72e387db4bb177e3e0435e23b0072d9
     name: analysis
@@ -13,9 +13,9 @@ entries:
     version: 1.0.2-alpha
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-06-09T22:52:20.651342+08:00"
+    created: "2023-06-09T22:55:23.276797+08:00"
     description: A analysis chart for atop
-    digest: f35451481a86b594b25b34532fcb46df0a076793e354f0c1b46c6ed41bbb2bbb
+    digest: 484e783013e34c6bdba4520c772cb9a43607d70312f8f5a855d77602d5ff2b54
     name: analysis
     type: application
     urls:
@@ -24,7 +24,7 @@ entries:
   apisix:
   - apiVersion: v2
     appVersion: 2.15.0
-    created: "2023-06-09T22:52:20.65596+08:00"
+    created: "2023-06-09T22:55:23.280271+08:00"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -53,7 +53,7 @@ entries:
   auth:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-06-09T22:52:20.656196+08:00"
+    created: "2023-06-09T22:55:23.280358+08:00"
     description: A auth chart for atop
     digest: 1cec7c4d4251089ccac7c3bfdce90eb4f0c988c863647bd77b305d7404fd1746
     name: auth
@@ -64,7 +64,7 @@ entries:
   console:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2023-06-09T22:52:20.656372+08:00"
+    created: "2023-06-09T22:55:23.280451+08:00"
     description: A console chart for atop
     digest: 607ea99a2af2e3b15c1415a386f3b75b7dade4ecf3599531b7f2e66ef8eab275
     name: console
@@ -75,7 +75,7 @@ entries:
   demo:
   - apiVersion: v2
     appVersion: v1.0.0
-    created: "2023-06-09T22:52:20.656821+08:00"
+    created: "2023-06-09T22:55:23.280655+08:00"
     description: A demo chart for atop
     digest: defeb8d20aec425b1c552a2c0876571e03c1fe27ade158c9ea78053b79e2d378
     name: demo
@@ -85,7 +85,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-06-09T22:52:20.656553+08:00"
+    created: "2023-06-09T22:55:23.280551+08:00"
     description: A demo chart for atop
     digest: 042b92c99412d7f602b8ad8156419cddf9c82e3393684fa987d5c5e741b6107c
     name: demo
@@ -96,7 +96,7 @@ entries:
   files:
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-06-09T22:52:20.657261+08:00"
+    created: "2023-06-09T22:55:23.280811+08:00"
     description: A files chart for atop
     digest: f1846f73d3df32b6ca0a04e72d7189448091ea3cc78054907256b5a1db71831f
     name: files
@@ -106,7 +106,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-06-09T22:52:20.657087+08:00"
+    created: "2023-06-09T22:55:23.280735+08:00"
     description: A files chart for atop
     digest: f66c9dee737f774646957f765265b6fa2acfdc778647aa5bd13ea05f0b0bd842
     name: files
@@ -117,7 +117,7 @@ entries:
   tink:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-06-09T22:52:20.657349+08:00"
+    created: "2023-06-09T22:55:23.280944+08:00"
     description: A tink chart for atop
     digest: 34ffa303c12c7a8e63def311a997a0c7c30e7a656bc01b9de39c5f10c61b2b82
     name: tink
@@ -125,4 +125,4 @@ entries:
     urls:
     - https://no8ge.github.io/chartrepo/tink-1.0.2.tgz
     version: 1.0.2
-generated: "2023-06-09T22:52:20.650684+08:00"
+generated: "2023-06-09T22:55:23.276638+08:00"
