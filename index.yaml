@@ -3,7 +3,7 @@ entries:
   analysis:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-02T10:34:09.416453+08:00"
+    created: "2023-07-02T10:42:36.865043+08:00"
     description: A analysis chart for atop
     digest: 642f6d9d748c369501795cda66ac9bc9d8fc897cc78e3fd9eeecaa71168931c7
     name: analysis
@@ -13,7 +13,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-02T10:34:09.416247+08:00"
+    created: "2023-07-02T10:42:36.864808+08:00"
     description: A analysis chart for atop
     digest: 484e783013e34c6bdba4520c772cb9a43607d70312f8f5a855d77602d5ff2b54
     name: analysis
@@ -24,7 +24,7 @@ entries:
   apisix:
   - apiVersion: v2
     appVersion: 2.15.0
-    created: "2023-07-02T10:34:09.421156+08:00"
+    created: "2023-07-02T10:42:36.868744+08:00"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -53,7 +53,7 @@ entries:
   atop:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2023-07-02T10:34:09.429823+08:00"
+    created: "2023-07-02T10:42:36.877851+08:00"
     dependencies:
     - name: auth
       repository: https://no8ge.github.io/chartrepo
@@ -74,7 +74,7 @@ entries:
       repository: https://no8ge.github.io/chartrepo
       version: 0.1.0
     description: A  chart for atop
-    digest: ede22248bf33bfaf2aa5e268d13c73038d16d3a362aff62fc3348d37c1b7c6af
+    digest: 39ee222d2966dcd42d19655ae4dca055b0da3281e8ec21450ded25ae7ad4481f
     name: atop
     type: application
     urls:
@@ -82,7 +82,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2023-07-02T10:34:09.42558+08:00"
+    created: "2023-07-02T10:42:36.873573+08:00"
     dependencies:
     - name: auth
       repository: https://no8ge.github.io/chartrepo
@@ -112,7 +112,7 @@ entries:
   auth:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-02T10:34:09.430079+08:00"
+    created: "2023-07-02T10:42:36.878093+08:00"
     description: A auth chart for atop
     digest: 1cec7c4d4251089ccac7c3bfdce90eb4f0c988c863647bd77b305d7404fd1746
     name: auth
@@ -123,7 +123,7 @@ entries:
   console:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2023-07-02T10:34:09.430273+08:00"
+    created: "2023-07-02T10:42:36.878331+08:00"
     description: A console chart for atop
     digest: 607ea99a2af2e3b15c1415a386f3b75b7dade4ecf3599531b7f2e66ef8eab275
     name: console
@@ -134,7 +134,7 @@ entries:
   demo:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-02T10:34:09.430478+08:00"
+    created: "2023-07-02T10:42:36.878563+08:00"
     description: A demo chart for atop
     digest: bee1c6608a85de504b8864d95f01b7ff180506a234f2ea110e01f655d3c8d23d
     name: demo
@@ -145,7 +145,7 @@ entries:
   files:
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-07-02T10:34:09.430872+08:00"
+    created: "2023-07-02T10:42:36.878996+08:00"
     description: A files chart for atop
     digest: ad251da758c45cf67da4ad1f396a5f653f69f64b27d670cd917c3b59311be4f5
     name: files
@@ -155,7 +155,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.2.0
-    created: "2023-07-02T10:34:09.430673+08:00"
+    created: "2023-07-02T10:42:36.878784+08:00"
     description: A files chart for atop
     digest: d794f803436dee33dcfdfb0927d7cf1fed7b86e32b8bf7c9fd1b93d3533bdcb0
     name: files
@@ -166,7 +166,7 @@ entries:
   tink:
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-07-02T10:34:09.431253+08:00"
+    created: "2023-07-02T10:42:36.879363+08:00"
     description: A tink chart for atop
     digest: edf1b978517a3aca42ccd08781a4b6de62e021a791f8c8b33f5cad2dd12ba25c
     name: tink
@@ -176,7 +176,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-07-02T10:34:09.431067+08:00"
+    created: "2023-07-02T10:42:36.879203+08:00"
     description: A tink chart for atop
     digest: 88cf153b506aa15bdbb432d9907abe7dbcc977caee5371097ca42307fb974f02
     name: tink
@@ -184,4 +184,4 @@ entries:
     urls:
     - https://no8ge.github.io/chartrepo/tink-1.0.2.tgz
     version: 1.0.2
-generated: "2023-07-02T10:34:09.41593+08:00"
+generated: "2023-07-02T10:42:36.864489+08:00"
