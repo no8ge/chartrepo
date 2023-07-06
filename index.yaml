@@ -3,7 +3,7 @@ entries:
   analysis:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-06T16:08:32.294808+08:00"
+    created: "2023-07-06T16:10:23.331855+08:00"
     description: A analysis chart for atop
     digest: 642f6d9d748c369501795cda66ac9bc9d8fc897cc78e3fd9eeecaa71168931c7
     name: analysis
@@ -13,7 +13,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-06T16:08:32.294611+08:00"
+    created: "2023-07-06T16:10:23.331648+08:00"
     description: A analysis chart for atop
     digest: 484e783013e34c6bdba4520c772cb9a43607d70312f8f5a855d77602d5ff2b54
     name: analysis
@@ -24,7 +24,7 @@ entries:
   apisix:
   - apiVersion: v2
     appVersion: 2.15.0
-    created: "2023-07-06T16:08:32.299968+08:00"
+    created: "2023-07-06T16:10:23.336362+08:00"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -53,7 +53,33 @@ entries:
   atop:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2023-07-06T16:08:32.314131+08:00"
+    created: "2023-07-06T16:10:23.354259+08:00"
+    dependencies:
+    - name: auth
+      repository: https://no8ge.github.io/chartrepo
+      version: 1.0.1
+    - name: demo
+      repository: https://no8ge.github.io/chartrepo
+      version: 1.0.1
+    - name: files
+      repository: https://no8ge.github.io/chartrepo
+      version: 1.0.5
+    - name: tink
+      repository: https://no8ge.github.io/chartrepo
+      version: 1.0.3
+    - name: analysis
+      repository: https://no8ge.github.io/chartrepo
+      version: 1.0.2
+    description: A  chart for atop
+    digest: a46f871690ca43a9399ad4acffaf51cfb334a63eed46031562f6523362556aee
+    name: atop
+    type: application
+    urls:
+    - https://no8ge.github.io/chartrepo/atop-1.0.5.tgz
+    version: 1.0.5
+  - apiVersion: v2
+    appVersion: 0.1.2
+    created: "2023-07-06T16:10:23.350348+08:00"
     dependencies:
     - name: auth
       repository: https://no8ge.github.io/chartrepo
@@ -79,7 +105,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2023-07-06T16:08:32.309344+08:00"
+    created: "2023-07-06T16:10:23.345487+08:00"
     dependencies:
     - name: auth
       repository: https://no8ge.github.io/chartrepo
@@ -105,7 +131,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2023-07-06T16:08:32.304189+08:00"
+    created: "2023-07-06T16:10:23.340556+08:00"
     dependencies:
     - name: auth
       repository: https://no8ge.github.io/chartrepo
@@ -132,7 +158,7 @@ entries:
   auth:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-06T16:08:32.314358+08:00"
+    created: "2023-07-06T16:10:23.354487+08:00"
     description: A auth chart for atop
     digest: 1cec7c4d4251089ccac7c3bfdce90eb4f0c988c863647bd77b305d7404fd1746
     name: auth
@@ -143,7 +169,7 @@ entries:
   console:
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2023-07-06T16:08:32.314547+08:00"
+    created: "2023-07-06T16:10:23.354703+08:00"
     description: A console chart for atop
     digest: 607ea99a2af2e3b15c1415a386f3b75b7dade4ecf3599531b7f2e66ef8eab275
     name: console
@@ -154,7 +180,7 @@ entries:
   demo:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2023-07-06T16:08:32.31474+08:00"
+    created: "2023-07-06T16:10:23.354914+08:00"
     description: A demo chart for atop
     digest: bee1c6608a85de504b8864d95f01b7ff180506a234f2ea110e01f655d3c8d23d
     name: demo
@@ -165,7 +191,7 @@ entries:
   files:
   - apiVersion: v2
     appVersion: 1.0.7
-    created: "2023-07-06T16:08:32.315458+08:00"
+    created: "2023-07-06T16:10:23.356242+08:00"
     description: A files chart for atop
     digest: e17ab6fb7d76a56b7d5cfbbd5445d33107f6c3b504433c3e296ef8f433eb85a7
     name: files
@@ -175,7 +201,7 @@ entries:
     version: 1.0.5
   - apiVersion: v2
     appVersion: 1.0.6
-    created: "2023-07-06T16:08:32.315363+08:00"
+    created: "2023-07-06T16:10:23.355896+08:00"
     description: A files chart for atop
     digest: 4623661583df3375299df799e7018a1980dd2d0c3401e15e5b43ee3404b695c6
     name: files
@@ -185,7 +211,7 @@ entries:
     version: 1.0.4
   - apiVersion: v2
     appVersion: 1.0.5
-    created: "2023-07-06T16:08:32.315151+08:00"
+    created: "2023-07-06T16:10:23.355336+08:00"
     description: A files chart for atop
     digest: a5b808f24108ee8ce3b47145d2e138db670c533a48e888e8b201fd08a572adbd
     name: files
@@ -195,7 +221,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.4
-    created: "2023-07-06T16:08:32.314957+08:00"
+    created: "2023-07-06T16:10:23.355135+08:00"
     description: A files chart for atop
     digest: dfa3fa9ab1db0b38ec15748e53d15949b79e4e448b5323f0fc88b612c9c5f311
     name: files
@@ -206,7 +232,7 @@ entries:
   tink:
   - apiVersion: v2
     appVersion: 1.0.3
-    created: "2023-07-06T16:08:32.315842+08:00"
+    created: "2023-07-06T16:10:23.356663+08:00"
     description: A tink chart for atop
     digest: 8ff292534465cfee3c8cd4909fd2f97b338e542c0c179cf3147b330c41c88e26
     name: tink
@@ -216,7 +242,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.2
-    created: "2023-07-06T16:08:32.315645+08:00"
+    created: "2023-07-06T16:10:23.356445+08:00"
     description: A tink chart for atop
     digest: 88cf153b506aa15bdbb432d9907abe7dbcc977caee5371097ca42307fb974f02
     name: tink
@@ -224,4 +250,4 @@ entries:
     urls:
     - https://no8ge.github.io/chartrepo/tink-1.0.2.tgz
     version: 1.0.2
-generated: "2023-07-06T16:08:32.294048+08:00"
+generated: "2023-07-06T16:10:23.331327+08:00"
