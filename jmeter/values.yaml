@@ -1,0 +1,3 @@
+image: "no8ge/demo:1.0.0"
+command: "apache-jmeter-5.4.3/bin/jmeter -n -t src/demo.jmx -l report/test.jtl -e -o report -j Host=demo.default"
+report: /demo/report

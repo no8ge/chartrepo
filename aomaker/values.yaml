@@ -1,0 +1,3 @@
+image: "no8ge/aomaker:1.0"
+command: "arun -e qingcloud -m hpc_fs"
+report: /data/autotest/reports
