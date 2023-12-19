@@ -33,7 +33,7 @@ spec:
         - /bin/sh
       args:
         - -c
-        - mc alias set atop http://$MINIO_HOST $MINIO_ACCESS_KEY $MINIO_SECRET_KEY; mc mirror --remove --watch --overwrite /data atop/result/$REPORT
+        - mc alias set atop http://$MINIO_HOST $MINIO_ACCESS_KEY $MINIO_SECRET_KEY;mc mirror --remove --watch --overwrite /data atop/result/$REPORT
       env:
         - name: MINIO_ACCESS_KEY
           valueFrom:
