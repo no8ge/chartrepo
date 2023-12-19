@@ -1,4 +1,0 @@
-image: "no8ge/hatbox:1.0"
-command: "python HATengine.py case -m 2 -t 3 -s test_auto_create_case_step"
-reports: /hatbox/Log/report
-logs: /hatbox/Log/logs

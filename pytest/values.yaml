@@ -1,3 +1,0 @@
-image: "no8ge/demo:1.0.0"
-command: "pytest --html=report/report.html -s -v"
-report: /demo/report
